@@ -15,7 +15,7 @@ public class UserRegistrationSteps {
 
     @And("customer fills the new user registration page")
     public void aCustomerFillsTheNewUserRegistrationPage(){
-
+        userRegistrationPage.fillRegistrationForm();
     }
 
     @Then("customer is shown a registration success message")
