@@ -9,7 +9,7 @@ Feature: E2E Checkout test
     And customer adds '' to the bag
     And customer goes to shopping cart
     And customer sets the quantity of '' item in the cart to ''
-    When customer clicks on Proceed to checkout
+    When customer clicks on Proceed to checkout button
     Then customer is shown a new user registration page
     And customer fills the new user registration page
     When customer clicks on Continue button
